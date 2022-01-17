@@ -1,0 +1,118 @@
+thead h3 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+tfoot * {margin-top: 1%}
+
+#mainTable {
+    background-color: ghostwhite;
+    width: 1000px;
+    margin-bottom: 90px;
+    border: 1px solid black
+}
+
+input, svg, #Y-input {
+    width: 100%;
+    border: 1px solid #ce1237;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    background-color: #fff;
+}
+
+svg {
+    width: 300px;
+    height: 300px;
+    box-shadow: inset 0 0 7px 1px gray;
+}
+
+hr {
+    color: #ce1237;
+    width: 95%;
+}
+
+.notification {
+    color: #ce1237;
+    padding: 1%;
+}
+
+#resTable {
+    border: 1px solid #ce1237;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: auto auto 3%;
+    width: 90%;
+}
+
+#resTable th {
+    color: white;
+    background-color: #ce1237;
+}
+
+.effButton {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: #ce1237;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+.effButton:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.commandButtonsGroup {
+    text-decoration: none;
+}
+
+.select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid #ce1237;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+    cursor: pointer
+}
+
+* {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+a {
+    color: #ce1237;
+    font-weight: 200;
+    border-radius: 2px;
+}
+
+input, a {cursor: pointer}
+
+#content {
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#content h1 {
+    font-size: 8em;
+    margin: 0;
+    background: linear-gradient(130deg, #2a48eb, #ff0018);
+    color: transparent;
+    text-transform: uppercase;
+}
